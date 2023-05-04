@@ -13,7 +13,7 @@ function To(to)
         try {
             axios({
             method: "POST",
-            url: 'https://flask-production-aec4.up.railway.app/api/get_link',
+            url: '/api/get_link',
             data:{hash: to.params.hash},
             }).then(response=>{
                 console.log(JSON.stringify(response))

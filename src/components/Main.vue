@@ -56,7 +56,7 @@ export default {
         try{
             axios({
             method:"POST",
-            url: '/api/get_short_link',
+            url: 'https://flask-production-aec4.up.railway.app/api/get_short_link',
             data:{
               link: this.text_long_link
             },

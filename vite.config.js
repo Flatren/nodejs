@@ -7,8 +7,7 @@ import vue from '@vitejs/plugin-vue'
 export default defineConfig({
   plugins: [vue()],
   server: {
-    host: true,
-    port: 8080},
+    host: true},
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))

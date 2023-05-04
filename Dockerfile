@@ -15,5 +15,5 @@ COPY . .
 # собираем приложение для production с минификацией
 RUN npm run build
 
-ENTRYPOINT ["npm run dev port=$PORT"]
+ENTRYPOINT ["npm", "run", "dev", "port=$PORT"]
  

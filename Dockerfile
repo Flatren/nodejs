@@ -15,5 +15,5 @@ COPY . .
 # собираем приложение для production с минификацией
 RUN npm run build
 
-CMD ["sh", "-c", "npm run dev --port=$PORT"]
+CMD ["sh", "-c", "npm run dev port=$PORT"]
  
